@@ -1,0 +1,220 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title></title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </head> 
+<body>
+      <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#" style="font-size:30px">Menit.com</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNews" aria-controls="navbarNews" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNews">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#">Nasional</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Internasional</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Olahraga</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Teknologi</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Hiburan</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav> 
+  <!-- MARQUEE BAR -->
+  <div class="bg-danger text-white py-2">
+    <div class="container d-flex justify-content-between align-items-center">
+      <marquee behavior="scroll" direction="left" class="fw-semibold">
+        [Populer] Pemerintah umumkan kebijakan baru ekonomi digital • ACL 2 • Persib bandung Belum Terkalahkan di ACL2• Harga BBM turun minggu ini • iPhone 17 resmi meluncur di Indonesia
+      </marquee>
+      <div id="clock" class="fw-bold px-2 text-end" style="width:300px"></div>
+    </div>
+  </div>
+  <div class="container">
+      <div class="row">
+          <!-- Carousel Berita -->
+      <div class="col-md-8">
+        <div id="carouselNews" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/gambar1.jpeg" class="d-block w-100 rounded" alt="Berita 1">
+              <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                <h5>Ini Perkiraan Cuaca Wilayah yang bakal Diguyur Hujan Dua Hari Ke Depan</h5>
+                <p>Badan Meteorologi Klimatologi, dan Geofisika Jawa Barat menyebut, sebagian besar wilayah mereka diprediksi akan berawan.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/gambar2.jpg" class="d-block w-100 rounded" alt="Berita 2">
+              <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                <h5>Timnas Indonesia tidak lolos world cup 2026</h5>
+                <p>Timnas Indonesia harus berhenti di round4, karena indonesia dikalakan oleh irak dan saudi arabia.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/gambar3.jpg" class="d-block w-100 rounded" alt="Berita 3">
+              <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                <h5>iPhone 17 Resmi Dirilis</h5>
+                <p>Apple meluncurkan produk terbaru dengan fitur AI canggih.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/gambar4.jpeg" class="d-block w-100 rounded" alt="Berita 4">
+              <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                <h5>Persib Bandung Kalahkan Selangor 3-2 di Liga Champions Asia II</h5>
+                <p>Kemenangan membuat Persib Bandung semakin kokoh di puncak klasemen sementara Grup G dengan koleksi 10 poin di Liga Champions Asia II.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/gambar5.jpeg" class="d-block w-100 rounded" alt="Berita 5">
+              <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                <h5>Pemilu 2025 Semakin Dekat</h5>
+                <p>Partai politik mulai deklarasikan calon presiden.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselNews" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselNews" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+      <!-- List Berita Populer -->
+      <div class="col-md-4">
+        <div class="card h-100 p-4 bg-info border-0">
+        <h4 class="mb-3 text-center text-light">BERITA POPULER</h4>
+        <a href="Harga-Emas-Antam-Naik-Rp-40.000-Jadi-Semahal-Ini.html" class="btn btn-light mb-1 text-start p-3">Harga Emas Antam Naik Rp 40.000 Jadi Semahal Ini</a>
+        <a href="Hasil-Liga-Champions-Asia-2-Persib-Bandung-Kalah-Lawan-Lion-City-Sailors-2-3.html" class="btn btn-light mb-1 text-start p-3">Hasil Liga Champions Asia II: Persib Bandung Kalah Lawan Lion City Sailors 2-3</a>
+        <a href="iPhone-17 -rilis-di-indonesia.html" class="btn btn-light mb-1 text-start p-3">Apple luncurkan iPhone 17</a>
+        <a href="Jangan-Anggap-Remeh-8-Alarm-Ekonomi-dalam-Bahaya-Sudah-Menyala.html" class="btn btn-light mb-1 text-start p-3">Jangan Anggap Remeh! 8 Alarm Ekonomi dalam Bahaya Sudah Menyala</a>
+        <a href="" class="btn btn-light mb-1 text-start p-3">Konsumsi Melemah, Pertumbuhan Ekonomi Indonesia di Kuartal III Hanya Capai 4,94%</a>
+        <a href="" class="btn btn-light mb-1 text-start p-3">Pemilu 2025 Semakin Dekat</a>
+        <a href="" class="btn btn-light mb-1 text-start p-3">Kebijakan Ekonomi Baru 2025r</a>
+        </div>
+      </div>
+    </div>
+      </div>    
+  </div>
+  <div class="container">
+  <hr>
+  <h3>BERITA UTAMA</h3>
+  <hr>
+     <div class="row">
+          <!-- Loop berita -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/gambar1.jpeg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h6 class="card-title"><b>Jadwal Pencak Silat Indonesia di SEA Games 2025 Thailand & Prediksi Emas</b></h6>
+            <p class="news-summary">diharapkan menjadi salah satu lumbung medali Indonesia di SEA Games 2025. Cabor ini menempati urutan ke-33 dalam daftar cabor yang dipertandingkan pada perhelatan olahraga terbesar se-Asia Tenggara tersebut.</p>
+            <a href="Jadwal-Pencak-Silat-Indonesia-di-SEA-Games-2025-Thailand-Prediksi-Emas.html" class="nav-link text-primary">Selengkapnya...</a>            
+          </div>
+        </div>
+      </div>
+      <!-- Loop berita -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/gambar2.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h6 class="card-title"><b>Berapa Kenaikan UMK dan UMP 2026?</b></h6>
+            <p class="news-summary">Pemerintah memastikan regulasi dan formulasi penetapan upah minimum tahun depan akan disampaikan dalam waktu dekat, meski jadwal resminya belum diumumkan</p>
+   <a href="Berapa-Kenaikan-UMK-dan-UMP-2026.html" class="nav-link text-primary">Selengkapnya...</a>
+          </div>
+        </div>
+      </div>
+      <!-- Loop berita -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/gambar3.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h6 class="card-title"><b> Harga Terbaru iPhone 13, iPhone 14, iPhone 15 dan iPhone 16 Bulan Desember 2025</b></h6>
+            <p class="news-summary">Harga smartphone sering berubah dengan kondisi pasar, bisa juga karena ada bahaya produk terbaru.</p>
+            <a href="iPhone-17 -rilis-di-indonesia.html" class="nav-link text-primary">Selengkapnya...</a>
+          </div>
+        </div>
+      </div>
+      <!-- Loop berita -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/gambar4.jpeg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h6 class="card-title"><b>Jadwal Indonesia Vs Filipina di SEA Games: Kapan, Jam, Tayang di Mana?
+</b></h6>
+            <p class="news-summary">Timnas Indonesia U-22 akan bertanding melawan Filipina U-22 dalam laga SEA Games 2025 malam ini. Simak jadwal lengkap Indonesia U-22 vs Filipina U-22</p>
+            <a href="Hasil-Liga-Champions-Asia-2-Persib-Bandung-Kalah-Lawan-Lion-City-Sailors-2-3.html" class="nav-link text-primary">Selengkapnya...</a>
+          </div>
+        </div>
+      </div>
+      <!-- Loop berita -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/gambar5.jpeg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h6 class="card-title"><b>China Tanam Pohon Saking Banyaknya, Seluruh Negara Berubah Total
+
+</b></h6>
+            <p class="news-summary">Sebuah penelitian menemukan kebiasaan China untuk melakukan penghijauan di wilayahnya. Mulai dari penanaman pohon serta pemulihan padang rumput.</p>
+            <a href="Demo-28-Agustus-2025.html" class="nav-link text-primary">Selengkapnya...</a>
+          </div>
+        </div>
+      </div>
+      <!-- Loop berita -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="images/gambar6.jpeg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h6 class="card-title"><b>Kenapa Alpukat Tidak Bisa Matang di Pohon?</b></h6>
+            <p class="news-summary">Pernah lihat langsung pohon alpukat detikers? Ternyata alpukat-alpukat yang tersedia di toko buah, itu tidak dipetik karena matang di pohon. Faktanya, alpukat termasuk buah yang tidak matang di pohon.</p>
+            <a href="Presiden-Prabowo-Tegaskan-Komitmen-Perkuat-Hubungan-Indonesia–-Afrika-Selatan.html" class="nav-link text-primary">Selengkapnya...</a>
+          </div>
+        </div>
+      </div>
+      </div>      
+  </div>
+  <!-- FOOTER -->
+  <footer class="bg-dark text-light p-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Menit.com</h5>
+          <p>Portal berita terpercaya yang menyajikan informasi terkini, akurat, dan mendalam dari berbagai bidang.</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Kategori</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="nav-link">Nasional</a></li>
+            <li><a href="#" class="nav-link">Internasional</a></li>
+            <li><a href="#" class="nav-link">Teknologi</a></li>
+            <li><a href="#" class="nav-link">Olahraga</a></li>
+            <li><a href="#" class="nav-link">Hiburan</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Kontak</h5>
+          <p>Email: redaksi@menit.com<br>Telepon: +62 812 3456 7890</p>
+          <div>
+            <a href="#" class="me-3 nav-link">Facebook</a>
+            <a href="#" class="me-3 nav-link">Twitter</a>
+            <a href="#" class="nav-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <p class="text-center mb-0">© 2025 Menit.com. All rights reserved.</p>
+    </div>
+  </footer>
+  <script>
+    // Menampilkan jam real-time
+    setInterval(() => {
+      const now = new Date();
+      document.getElementById('clock').textContent = now.toLocaleString('id-ID');
+    }, 1000);
+  </script>
+</body>
+</html>
